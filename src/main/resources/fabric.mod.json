@@ -3,13 +3,13 @@
 	"id": "gaming_blocks",
 	"version": "${version}",
 	"name": "Decorative Gaming Blocks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds decorative blocks for gaming consoles, such as PC, Xbox, Switch, etc",
 	"authors": [
-		"Me!"
+		"TacoSocks"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/user/TacoSocks21",
+		"sources": "https://github.com/TacoSocks21/MC_Mod_Fabric_DGB"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/gaming_blocks/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.tacosocks.gaming_blocks.DecorativeGamingBlocksDataGenerator"
+		],
+		"client": [
+			"net.tacosocks.gaming_blocks.DecorativeGamingBlocksClient"
 		]
 	},
 	"mixins": [
