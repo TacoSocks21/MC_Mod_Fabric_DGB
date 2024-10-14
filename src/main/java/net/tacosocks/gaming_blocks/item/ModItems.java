@@ -10,7 +10,11 @@ import net.tacosocks.gaming_blocks.DecorativeGamingBlocks;
 
 public class ModItems {
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(DecorativeGamingBlocks.MOD_ID, name), item);
+        return Registry.register(
+                Registries.ITEM,
+                Identifier.of(DecorativeGamingBlocks.MOD_ID, name),
+                item
+        );
     }
 
     public static final Item PC_KEYBOARD = registerItem("pc_keyboard", new Item(new Item.Settings()));
